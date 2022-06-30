@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "launch": "apps/launch",
+    "launch-e2e": "apps/launch-e2e"
+  }
+}
