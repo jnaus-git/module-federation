@@ -2,9 +2,12 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "account": "apps/account",
+    "account-e2e": "apps/account-e2e",
     "cart": "apps/cart",
     "launch": "apps/launch",
     "launch-e2e": "apps/launch-e2e",
+    "shared-data": "libs/shared-data",
     "shell": "apps/shell",
     "shop": "apps/shop"
   }
