@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Account } from '@module-federation/shared-data';
 import { useState } from 'react';
 import NxWelcome from './nx-welcome';
@@ -8,8 +7,11 @@ export function App() {
 
 	return (
 		<>
-			<div> {name} </div>
-			<NxWelcome title="cart" />
+			<div className='container'>
+				<div> Shared Data: {name} </div>
+				<NxWelcome title="cart" />
+			</div>
+			<div></div>
 		</>
 	);
 }
